@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to right, #04000a, #160285, #1105be);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+.main {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
