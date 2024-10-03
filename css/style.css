@@ -1,7 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
-    background: linear-gradient(to right, #04000a, #160285, #1105be);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgb(10, 10, 10);
 }
 
 h1,
@@ -13,8 +17,48 @@ h6 {
     color: white;
 }
 
-.main {
-    text-align: center;
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.home{
+font-size: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-align: start;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    background-color: blueviolet;
+    height: 70px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.main {
+    background-color: rgb(126, 128, 233);
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 150px;
+    border-radius: 30px;
 }
