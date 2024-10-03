@@ -25,6 +25,7 @@ a{
 
 a:hover{
     opacity: 0.7;
+    scale: 1.1;
 }
 
 .home{
@@ -55,7 +56,7 @@ nav{
 }
 
 .main {
-    background-color: rgb(16, 19, 216);
+    background-color: rgb(36, 13, 243);
     position: absolute;
     top: 50%;
     left: 50%; 
@@ -64,3 +65,20 @@ nav{
     padding: 150px;
     border-radius: 30px;
 }
+
+.btn-vero{
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(36, 35, 35);
+}
+
+.btn-eriky{
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(36, 35, 35);
+}
+
