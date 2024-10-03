@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(43, 42, 42);
 }
 
 h1,
@@ -39,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgb(36, 13, 243);
     height: 70px;
 }
 
@@ -55,7 +55,7 @@ nav{
 }
 
 .main {
-    background-color: rgb(126, 128, 233);
+    background-color: rgb(16, 19, 216);
     position: absolute;
     top: 50%;
     left: 50%; 
