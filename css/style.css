@@ -81,4 +81,44 @@ nav{
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
 }
+body {
+    margin: 0
+;
+}
+
+
+.overlay-image {
+    
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 150px;
+    height: auto;
+} 
+.disco {
+    border-right: 50%;
+    border-left: 50%;
+    border-radius: 80%;
+    width: 40%;
+    height: 40%;
+    text-align: 10%;
+}
+.baco {
+    object-fit: cover;
+    border: solid rgb(15, 24, 181);
+    padding: 2px; 
+    border-right: 50%;
+    border-left: 50%;
+    border-radius: 80%;
+    width: 40%;
+    height: 40%;
+    position: relative;
+}
+.move {
+    font-size: 50px;
+    transform: translate(40px, 10px );
+    right: 40px;
+
+}
+
 
