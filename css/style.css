@@ -25,15 +25,10 @@ a {
 
 a:hover {
     opacity: 0.7;
-    transform: scale(1.1);  /* Corrigido: 'scale' deve estar dentro de 'transform' */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Adicionei a transição para um efeito suave */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 
-.nav-list li a:hover{
-    opacity: 0.7;
-    transform: scale(1.1);  /* Corrigido: 'scale' deve estar dentro de 'transform' */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Adicionei a transição para um efeito suave */
-}
 
 .home {
     font-size: 24px;
@@ -60,6 +55,12 @@ nav {
     letter-spacing: 3px;
     margin-left: 32px;
     padding-right: 40px;
+}
+
+.nav-list :hover{
+    opacity: 0.7;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 
 .main {
