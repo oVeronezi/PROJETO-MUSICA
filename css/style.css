@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, black, rgb(8, 8, 122))
+    background-image: linear-gradient(90deg, black, rgb(8, 8, 122));
 }
 
 h1,
@@ -25,10 +25,9 @@ a {
 
 a:hover {
     opacity: 0.7;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease, opacity 0.3s ease; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
 
 .home {
     font-size: 24px;
@@ -57,13 +56,24 @@ nav {
     padding-right: 40px;
 }
 
-.nav-list :hover{
+.nav-list :hover {
     opacity: 0.7;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease, opacity 0.3s ease; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .main {
+    background-color: rgba(49, 28, 240, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 70px;
+    border-radius: 60px;
+}
+
+.main2 {
     background-color: rgba(49, 28, 240, 1);
     position: absolute;
     top: 50%;
@@ -80,7 +90,16 @@ nav {
     padding: 15px;
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
-    width: 100px;
+    width: 300px;
+}
+
+.btn-vero2 {
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(36, 35, 35);
+    width: 500px;
 }
 
 .btn-eriky {
@@ -89,7 +108,22 @@ nav {
     padding: 15px;
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
-    width: 100px;
+    width: 300px;
+}
+
+.btn-eriky2 {
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(36, 35, 35);
+    width: 500px;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .overlay-image {
@@ -134,7 +168,7 @@ nav {
     border-radius: 20px;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +177,7 @@ nav {
     height: 100vh;
 }
 
-.content2{
+.content2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,50 +186,47 @@ nav {
     height: 100vh;
 }
 
-.cardimg{
+.cardimg {
     background: rgb(27, 27, 27);
     border-radius: 20px;
     width: 600px;
 }
 
-.mediacard{
+.mediacard {
     background: url(/img/foto-vero.jpeg);
     height: 550px;
     width: 100%;
 }
 
-.mediacard2{
-    background: url(/img/Imagem\ do\ WhatsApp\ de\ 2024-10-07\ à\(s\)\ 19.34.58_159d6869.jpg);
+.mediacard2 {
+    background: url(../img/Imagem\ do\ WhatsApp\ de\ 2024-10-07\ à\(s\)\ 19.34.58_159d6869.jpg);
     height: 550px;
     width: 100%;
-
-    
 }
 
-
-.title{
+.title {
     color: white;
 }
 
-.secondtext{
+.secondtext {
     color: white;
 }
 
-.topcard{
+.topcard {
     padding: 30px;
     padding-top: 10px;
 }
 
-.bottontext{
+.bottontext {
     color: white;
     margin: 15px;
 }
 
-.bottoncard{
+.bottoncard {
     padding: 5px;
 }
 
-.sla{
+.sla {
     display: flex;
     justify-content: space-between;
 }
