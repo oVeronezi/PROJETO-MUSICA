@@ -145,11 +145,11 @@ nav {
     object-fit: cover;
     border: solid rgb(15, 24, 181);
     padding: 2px;
-    border-right: 50%;
-    border-left: 50%;
-    border-radius: 80%;
-    width: 40%;
-    height: 40%;
+    border-right: 40%;
+    border-left: 40%;
+    border-radius: 70%;
+    width: 30%;
+    height: 30%;
     position: relative;
 }
 .move {
@@ -163,7 +163,7 @@ nav {
     display: flex;
     text-align: center;
     max-width: 50%;
-    position: absolute;
+    position: relative;
     padding: 90px;
     border-radius: 20px;
 }
@@ -199,8 +199,8 @@ nav {
 }
 
 .mediacard2 {
-    background: url(../img/Imagem\ do\ WhatsApp\ de\ 2024-10-07\ à\(s\)\ 19.34.58_159d6869.jpg);
-    height: 550px;
+    background: url(/img/foto.eriky.jpg);  
+    height: 600px;
     width: 100%;
 }
 
