@@ -31,7 +31,7 @@ a:hover {
 
 .home {
     font-size: 24px;
-    text-transform: uppercase;
+    text-transform: uppercase;        /* estilização do home presente na navbar */
     letter-spacing: 4px;
     text-align: start;
     padding-left: 40px;
@@ -39,24 +39,24 @@ a:hover {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;              /* estilização da navbar */
     align-items: center;
     background-color: rgb(36, 13, 243);
     height: 70px;
 }
 
 .nav-list {
-    list-style: none;
+    list-style: none;      /* estilização dos itens da navbar */
     display: flex;
 }
 
-.nav-list li {
+.nav-list li {                   /* estilização dos itens da navbar */
     letter-spacing: 3px;
     margin-left: 32px;
     padding-right: 40px;
 }
 
-.nav-list :hover {
+.nav-list :hover {                                               /* estilização dos efeitos dos itens da navbar */
     opacity: 0.7;
     transform: scale(1.1);
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -64,7 +64,7 @@ nav {
 
 .main {
     background-color: rgba(49, 28, 240, 1);
-    position: absolute;
+    position: absolute;                                  /* estilização do card primcipal na tela index */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -74,7 +74,7 @@ nav {
 }
 
 .main2 {
-    background-color: rgba(49, 28, 240, 1);
+    background-color: rgba(49, 28, 240, 1);              /* estilização do card primcipal na tela sobre*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -86,7 +86,7 @@ nav {
 
 .btn-vero {
     background-color: rgb(36, 35, 35);
-    color: #fff;
+    color: #fff;                                        /* estilização do botao do veronezi na tela index*/
     padding: 15px;
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
@@ -95,7 +95,7 @@ nav {
 }
 
 .btn-vero2 {
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);                   /* estilização do botao do veronezi na tela sobre*/
     color: #fff;
     padding: 15px;
     border-radius: 20px;
@@ -103,7 +103,7 @@ nav {
     width: 500px;
 }
 
-.btn-eriky {
+.btn-eriky {                                                  /* estilização do botao do eriky na tela index*/
     background-color: rgb(36, 35, 35);
     color: #fff;
     padding: 15px;
@@ -114,7 +114,7 @@ nav {
 }
 
 .btn-eriky2 {
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);                     /* estilização do botao do eriky na tela sobre*/
     color: #fff;
     padding: 15px;
     border-radius: 20px;
@@ -123,26 +123,26 @@ nav {
 }
 
 .card{
-    display: flex;
+    display: flex;                        /* estilização dos botaoes presente na div main*/
     justify-content: center;
 }
 
 .card2{
     display: flex;
-    justify-content: center;
+    justify-content: center;               /* estilização dos botaoes presente na div main2*/
     flex-direction: column;
 }
 
 .overlay-image {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);        
     width: 150px;
     height: auto;
 }
 .disco {
     border-right: 50%;
-    border-left: 50%;
+    border-left: 50%;             
     border-radius: 80%;
     width: 40%;
     height: 40%;
@@ -153,7 +153,7 @@ nav {
     border: solid rgb(15, 24, 181);
     padding: 2px;
     border-right: 40%;
-    border-left: 40%;
+    border-left: 40%;                 /* estilização do formato da imagem*/
     border-radius: 70%;
     width: 30%;
     height: 30%;
@@ -168,11 +168,11 @@ nav {
 
 .container-musica{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-between;       /* estilização dos card de musica*/
+} 
 
 .musica {
-    background-color: darkslateblue;
+    background-color: darkslateblue;        /* estilização dos card de musica*/
     display: flex;
     align-items: center;
     border-radius: 30px;
@@ -182,15 +182,15 @@ nav {
     margin-top: 140px;
 }
 
-.texto{
-    text-align: center;
+.texto{ 
+    text-align: center;            /* estilização dos textos nos card de musica*/
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
 }
 
 .content {
-    display: flex;
+    display: flex;                      /* estilização dos card de cada desenvovedor  */
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -221,7 +221,7 @@ nav {
 
 
 .mediacard {
-    background: url(/img/foto-vero.jpeg);
+    background: url(/img/foto-vero.jpeg);               
     height: 550px;
     width: 100%;
 }
