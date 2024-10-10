@@ -91,6 +91,7 @@ nav {
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
     width: 300px;
+    margin-right: 20px;
 }
 
 .btn-vero2 {
@@ -109,6 +110,7 @@ nav {
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
     width: 300px;
+    margin-left: 20px;
 }
 
 .btn-eriky2 {
@@ -118,6 +120,11 @@ nav {
     border-radius: 20px;
     border: 1px solid rgb(36, 35, 35);
     width: 500px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
 }
 
 .card2{
@@ -141,7 +148,7 @@ nav {
     height: 40%;
     text-align: 10%;
 }
-.baco {
+.img {
     object-fit: cover;
     border: solid rgb(15, 24, 181);
     padding: 2px;
@@ -151,6 +158,7 @@ nav {
     width: 30%;
     height: 30%;
     position: relative;
+    margin-left: 50px;
 }
 .move {
     font-size: 50px;
@@ -158,14 +166,27 @@ nav {
     right: 40px;
 }
 
-.limp-bizkit {
+.container-musica{
+    display: flex;
+    justify-content: space-between;
+}
+
+.musica {
     background-color: darkslateblue;
     display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 300px;
+    width: 1100px;
+    margin-right: 90px;
+    margin-top: 140px;
+}
+
+.texto{
     text-align: center;
-    max-width: 50%;
-    position: relative;
-    padding: 90px;
-    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
 }
 
 .content {
@@ -192,6 +213,13 @@ nav {
     width: 600px;
 }
 
+.cardimg2 {
+    background: rgb(27, 27, 27);
+    border-radius: 20px;
+    width: 510px;
+}
+
+
 .mediacard {
     background: url(/img/foto-vero.jpeg);
     height: 550px;
@@ -201,7 +229,7 @@ nav {
 .mediacard2 {
     background: url(/img/foto.eriky.jpg);  
     height: 600px;
-    width: 100%;
+    width: 510px;
 }
 
 .title {
